@@ -1,0 +1,602 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.decor{
+    position: absolute;
+    z-index: -1;
+    right: 0;
+}
+
+.navbar{
+    justify-content: space-between;
+    padding: 35px 10% 0px 10%;
+}
+
+.right-nav{
+    width: 75%;
+}
+
+.right-nav ul{
+    justify-content: space-evenly;
+}
+
+.right-nav ul li{
+    list-style: none;
+    padding: 10px;
+}
+
+.right-nav ul li a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: medium;
+    color: #212832;
+    font-size: 17px;
+}
+
+.right-nav ul li a img{
+    margin: 2px 0px;
+}
+
+#sign-up{
+    padding: 7px 18px;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+@keyframes jumpFlipRoll {
+    0% {
+      transform: translateY(0) rotateY(0);
+    }
+    30% {
+      transform: translateY(-50px) rotateY(180deg);
+    }
+    50%{
+        transform: translateY(0px) rotateY(180deg);
+    }
+    70% {
+      transform: translateY(-50px) rotateY(180deg);
+    }
+    80%{
+        transform: translateY(-30px) rotateY(150deg);
+    }
+    100% {
+      transform: translateY(0) rotateY(0);
+    }
+  }
+  
+  .animation {
+    animation: jumpFlipRoll 2s linear;
+  }
+
+
+
+
+
+/* Hero Content */
+
+.hero{
+    padding: 0px 10%;
+}
+
+.hero-content{
+    justify-content: center;
+    margin: 0 20px;
+}
+
+.hero-content h6{
+    color: #DF6951;
+    font-size: 16px;
+    margin: 40px 0 20px 0;
+    font-family: poppins;
+}
+
+.hero-content h1{
+    font-size: 58px;
+    color: #181E4B;
+    font-weight: bolder;
+    margin-bottom: 40px;
+    font-family: Volkhov;
+}
+
+.buttons{
+    margin-top: 40px;
+}
+
+#find-out-more{
+    background-color: #FFA90F;
+    color: white;
+    padding: 14px 20px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 10px 30px #ffab0f62;
+    margin-right: 50px;
+}
+
+.play-demo{
+    align-items: center;
+    font-size: 15px;
+}
+
+.play-demo button{
+    background: #DF6951;
+    padding: 12px;
+    border-radius: 50%;
+    border: none;
+    margin-right: 15px;
+    box-shadow: 0px 10px 30px #df69517b;
+}
+
+.play-demo button img{
+    display: flex;
+}
+
+.plane-1{
+    position: absolute;
+    top: 19%;
+    right: 39%;
+}
+
+.plane-2{
+    position: absolute;
+    top: 25%;
+    right: 8.6%;
+    z-index: -1;
+}
+
+
+
+
+
+
+/* Services */
+
+.services{
+    margin: 100px 5% 50px 10% ;
+    padding-top: 40px;
+    text-align: center;
+}
+
+#decor-2{
+    position: absolute;
+    right: 5%;
+}
+
+.services h5{
+    margin: 10px 0;
+    font-family: poppins;
+    font-weight: 600;
+    color: #5E6282;
+    font-size: 18px;
+}
+
+.services h2{
+    color: #14183E;
+    font-size: 50px;
+    padding: 10px;
+    font-family: volkhov;
+}
+
+.categories{
+    margin-top: 30px;
+}
+
+.category{
+    border-radius: 40px;
+    width: 240px;
+    padding: 10px;
+}
+
+.category img{
+    margin-top: 40px;
+}
+
+.category h4{
+    margin: 28px 0 16px 0;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #1E1D4C;
+}
+
+.category h6{
+    width: 80%;
+    font-family: poppins;
+    font-weight: lighter;
+    font-size: 14px;
+    color: #5E6282;
+    margin: 0 10% 10% 10%;
+}
+
+.category:hover{
+    box-shadow: 2px 10px 17px rgba(0, 0, 0, 0.359);
+}
+
+
+
+
+
+
+
+/* Destinations */
+
+.decor-4{
+    position: absolute;
+    right: 10%;
+    z-index: -1;
+    margin-top: 330px;
+}
+
+.destinations{
+    margin: 40px 10%;
+    padding-top: 100px;
+}
+
+.image-container{
+    margin: 40px;
+    height: 500px;
+    width: 300px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.289);
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-container:hover{
+    transform: scale(1.1);
+}
+
+@keyframes zoomIn{
+    0% {
+        transform: scale(0.7);
+      }
+
+      50% {
+        transform: scale(1.5);
+      }
+      
+      100% {
+        transform: scale(0.7);
+      }
+}
+
+.image-container-1{
+    background-image: url(images/place\ 1.png);
+   
+}
+.image-container-2{
+    background-image: url(images/place\ 2.png);
+    background-size: cover;
+    background-position: center;
+    
+}
+.image-container-3{
+    background-image: url(images/place\ 3.png);
+}
+
+.place-desc{
+    background-color: white;
+    height: 100px;
+    margin-top: 400px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.place-desc .row-1{
+    padding: 15px;
+    font-family: poppins;
+    font-size: 18px;
+    color: #5E6282;
+    font-weight: 600;
+}
+
+.place-desc .row-2{
+    font-family: poppins;
+    font-size: 16px;
+    color: #5E6282;
+}
+
+.place-desc .row-2 img{
+    margin: 0 15px;
+}
+
+
+.destinations h5{
+    font-family: poppins;
+    font-size: 18px;
+    color: #5E6282;
+    text-align: center;
+}
+
+.destinations h2{
+    font-family: volkhov;
+    color: #14183E;
+    font-size: 50px;
+    text-align: center;
+}
+
+
+
+
+
+/* Booking */
+
+.booking{
+    margin: 20px 10%;
+    padding: 100px 0;
+}
+
+.book-desc h5{
+    margin: 10px 0;
+    font-family: poppins;
+    font-weight: 600;
+    color: #5E6282;
+    font-size: 18px;
+}
+
+.book-desc h2{
+    margin: 10px 0 30px 0;
+    font-size: 50px;
+    color: #14183E;
+    font-family: 'volkhov';
+}
+
+.value{
+    margin: 40px 0;
+}
+
+.value img{
+    margin: auto;
+}
+
+.value-desc{
+    margin-left: 25px;
+}
+
+.value-desc h6{
+    font-size: 16px;
+    color: #5E6282;
+    font-family: poppins;
+}
+
+.value-desc p{
+    font-size: 16px;
+    color: #5E6282;
+    font-family: poppins;
+    padding-right: 100px;
+}
+
+
+
+
+
+/* Testimonials */
+
+.testimonials{
+    margin: 20px 10%;
+}
+
+.test-desc{
+    width: 450px;
+}
+
+.test-desc h5{
+    margin: 10px 0;
+    font-family: poppins;
+    font-weight: 600;
+    color: #5E6282;
+    font-size: 18px;
+}
+
+.test-desc h2{
+    color: #14183E;
+    font-size: 50px;
+    font-family: volkhov;
+}
+.test-image{
+    margin: 20px 0;
+}
+
+.carousel{
+    margin: 50px 0 0 1%;
+}
+
+.carousel button{
+    width: 10px;
+    height: 10px;
+    background-color: #E5E5E5;
+    border-radius: 50%;
+    margin: 10px;
+    border: none;
+}
+
+.carousel button:hover{
+    background-color: #39425D;
+}
+
+
+
+/* Logos */
+
+.logos{
+    margin: 60px 10% 150px 10%;
+}
+
+.logos img{
+    padding: 20px 40px;
+    border-radius: 20px;
+}
+
+.logos img:hover{
+    box-shadow: 2px 10px 16px rgba(0, 0, 0, 0.297);
+}
+
+
+
+
+/* Subscribe */
+
+.subscribe{
+    margin: 0px 10%;
+    background-image: url(images/subscribe.png);
+}
+
+#telegram{
+    position: relative;
+    left: 96%;
+    margin-top: -30px;
+}
+
+.subscribe h6{
+    font-size: 33px;
+    font-family: poppins;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px 10%;
+    color: #5E6282;
+}
+
+
+.email{
+    padding: 30px;
+}
+
+.email input{
+    padding: 25px;
+    width: 22vw;
+    margin: 30px 20px;
+    border-radius: 10px;
+    border: none;
+    font-size: 17px;
+}
+
+.email button{
+    padding: 25px 40px;
+    border-radius: 10px;
+    border: none;
+    font-size: 17px;
+    background-color: rgba(241, 100, 49, 0.704);
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.email button:hover{
+    background-color: rgba(243, 67, 2, 0.863)
+}
+
+#subs-decor{
+    position: absolute;
+    right: 4%;
+    margin-top: -100px;
+}
+
+
+
+
+
+
+
+
+
+.footer{
+    margin: 150px 10%;
+}
+
+.company-desc{
+    width: 250px;
+    margin: 20px;
+}
+
+.company-desc h2{
+    font-family: poppins;
+    font-size: 44px;
+    font-weight: 500;
+    color: #181E4B;
+}
+
+.company-desc p{
+    font-family: poppins;
+    font-size: 13px;
+    color: #5E6282;
+}
+
+.col{
+    width: 150px;
+    margin: 30px;
+}
+
+.col h4{
+    font-family: poppins;
+    color: #080809;
+    font-size: 21px;
+    margin-bottom: 20px;
+}
+
+.col p{
+    font-family: poppins;
+    font-size: 18px;
+    color: #5E6282;
+}
+
+.socials{
+    margin: 20px;
+}
+
+.socials p{
+    font-family: poppins;
+    font-size: 20px;
+    color: #5E6282;
+    padding: 10px;
+}
+
+.copyright{
+    text-align: center;
+    font-family: poppins;
+    color: #5E6282;
+    margin: 80px;
+}
+
+@media (max-width: 500px) {
+    .book-image{
+        display: none;
+    }
+}
+
+@media (max-width: 1140px) {
+    .hero-image{
+        display: none;
+    }
+    .decor{
+        display: none;
+    }
+    .decor-2{
+        display: none;
+    }
+    .navbar ul{
+        display: none;
+    }
+    .booking{
+        flex-direction: column;
+    }
+    #decor-2{
+        display: none;
+    }
+    .decor-4{
+        display: none;
+    }
+    #subs-decor{
+        display: none;
+    }
+    .testimonials{
+        display: none;
+    }
+    .subscribe h6{
+        font-size: 15px;
+    }
+    .email input{
+        padding: 15px;
+        font-size: 15px;
+    }
+    .email button{
+        padding: 15px;
+        font-size: 15px;
+    }
+}

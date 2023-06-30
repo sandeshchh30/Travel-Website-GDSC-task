@@ -1,0 +1,37 @@
+.flex{
+    display: flex;
+}
+
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-space-around{
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-space-between{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.font-poppins{
+    font-family: poppins;
+    color: #5E6282;
+}
+
+.font-volkhov{
+    font-family: volkhov;
+}
