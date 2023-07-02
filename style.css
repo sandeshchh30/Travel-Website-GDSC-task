@@ -33,6 +33,7 @@
     font-weight: medium;
     color: #212832;
     font-size: 17px;
+    padding: 7px 18px;
 }
 
 .right-nav ul li a img{
@@ -40,10 +41,10 @@
 }
 
 #sign-up{
-    padding: 7px 18px;
     border: 2px solid black;
     border-radius: 6px;
 }
+
 @keyframes jumpFlipRoll {
     0% {
       transform: translateY(0) rotateY(0);
@@ -135,6 +136,13 @@
     position: absolute;
     top: 19%;
     right: 39%;
+    animation: fly 2s linear;
+}
+
+@keyframes fly {
+    0%{
+        transform: translateX(-200px) translateY(30%);
+    }
 }
 
 .plane-2{
@@ -142,6 +150,7 @@
     top: 25%;
     right: 8.6%;
     z-index: -1;
+    animation: fly 2s linear;
 }
 
 
